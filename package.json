@@ -3,6 +3,9 @@
   "version": "0.3.0",
   "description": "Template for Gulp",
   "main": "index.js",
+  "bin": {
+	"init": "./index.js"
+  },
   "scripts": {
     "dev": "gulp",
     "build": "gulp build",
