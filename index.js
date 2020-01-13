@@ -57,9 +57,7 @@ exec("npm i -D @babel/core @babel/preset-env gulp gulp-babel gulp-connect gulp-i
 	
 	console.log("Installing NPM packages. Please wait.")
 
-	stdout.normalize("data", function(data) {
-		console.log(data.toString());
-	});
+	console.log(stdout);
 });
 
 
